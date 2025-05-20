@@ -1,0 +1,21 @@
+# Ignore the students_API folder
+students_API/
+
+# Ignore OS/Editor/System files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore Go build files
+bin/
+*.test
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore environment variables
+.env
