@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"time"
+	// "time"
 )
 
 func sum(ch chan int, num1, num2 int) {
@@ -10,10 +10,10 @@ func sum(ch chan int, num1, num2 int) {
 	result:=num1+num2
 	ch <- result
 	fmt.Println("after sum")
-	for {
-		fmt.Println(22)
-		time.Sleep(time.Nanosecond)
-	}
+	// for {
+	// 	fmt.Println(22)
+	// 	time.Sleep(time.Nanosecond)
+	// }
 }
 func main() {
 	ch := make(chan int)

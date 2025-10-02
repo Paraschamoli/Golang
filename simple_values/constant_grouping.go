@@ -7,5 +7,5 @@ func main() {
 		port = 800
 		host = "localhost"
 	)
-	fmt.Println(port,host,x)
+	fmt.Println(port,host)
 }
